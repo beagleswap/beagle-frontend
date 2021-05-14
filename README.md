@@ -1,1 +1,1 @@
-# beagle-frontend
+# 🐶 beagle-frontend
