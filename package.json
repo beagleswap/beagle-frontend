@@ -1,5 +1,5 @@
 {
-  "name": "pancake-frontend",
+  "name": "beagle-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -34,6 +34,7 @@
   "dependencies": {
     "@binance-chain/bsc-connector": "^1.0.0",
     "@ethersproject/abi": "^5.1.2",
+    "@pancakeswap/uikit": "git+ssh://git@github.com:beagleswap/beagle-uikit.git#v0.0.2",
     "@reduxjs/toolkit": "^1.5.0",
     "@types/react": "^17.0.5",
     "@types/react-dom": "^17.0.4",
