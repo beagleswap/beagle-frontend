@@ -18,7 +18,6 @@ import history from './routerHistory'
 const Home = lazy(() => import('./views/Home'))
 const Farms = lazy(() => import('./views/Farms'))
 const Lottery = lazy(() => import('./views/Lottery'))
-const Ifos = lazy(() => import('./views/Ifos'))
 const NotFound = lazy(() => import('./views/NotFound'))
 
 // This config is required for number formatting
@@ -51,9 +50,6 @@ const App: React.FC = () => {
             </Route>
             <Route path="/lottery">
               <Lottery />
-            </Route>
-            <Route path="/ifo">
-              <Ifos />
             </Route>
             {/* Redirect */}
             <Route path="/staking">
