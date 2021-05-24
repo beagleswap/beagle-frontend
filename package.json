@@ -32,9 +32,10 @@
     ]
   },
   "dependencies": {
+    "@beagleswap/uikit": "beagleswap/beagle-uikit",
     "@binance-chain/bsc-connector": "^1.0.0",
     "@ethersproject/abi": "^5.1.2",
-    "@beagleswap/uikit": "../beagle-uikit",
+    "@popperjs/core": "^2.9.2",
     "@reduxjs/toolkit": "^1.5.0",
     "@types/react": "^17.0.5",
     "@types/react-dom": "^17.0.4",
@@ -60,6 +61,7 @@
     "react-dom": "^17.0.1",
     "react-feather": "^2.0.8",
     "react-helmet-async": "^1.0.9",
+    "react-popper": "^2.2.5",
     "react-redux": "^7.2.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.1",
